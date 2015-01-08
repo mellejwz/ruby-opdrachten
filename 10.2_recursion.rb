@@ -30,7 +30,7 @@ def recursive_sort unsorted, sorted
 	#prevent already sorted words to be processed again by deleting them from the unsorted array
 	unsorted.delete(unsorted.min)
 	if unsorted.length==0
-		#if the unsorted array is empty return the sorted array
+		#if the unsorted array is empty return the sorted array to the wrapper
 		return sorted
 		#else repeat the sorting method with the unsorted and sorted arrays
 	else recursive_sort unsorted, sorted
