@@ -1,6 +1,8 @@
 system('clear')
 system('cls')
 
+unsorted = []
+
 def save_words unsorted
 	word = gets.chomp
 	if word != ''
@@ -28,4 +30,4 @@ puts 'Type some words and press enter after each one,'
 puts 'press enter without entering a word to continue.'
 puts
 
-save_words []
+save_words unsorted
